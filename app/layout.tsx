@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'FunnelStrike | AI-Powered Lead Generation Agency',
   description: 'Generate high-quality leads with AI-powered funnels that deliver consistent ROI for your business.',
+  icons: {
+    icon: '/favicon.ico', // Set your favicon
+  },
 };
 
 export default function RootLayout({
