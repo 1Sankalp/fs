@@ -68,18 +68,18 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="hidden md:flex justify-center items-center">
+            <div className="flex justify-center items-center">
               <div className={`flex flex-col items-center transition-all ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <a href="https://www.loom.com/share/9d7c5431b0a44d45aed616f952cb4738">
-                  <p>codexplainer.vercel.app - 21 February 2025 - Watch Video</p>
+                  <p className="text-white">codexplainer.vercel.app - 21 February 2025 - Watch Video</p>
                 </a>
-                <div style={{ position: 'relative', height: '350px', width: '100%', marginTop: '20px' }}>
+                <div style={{ position: 'relative', height: 290, width: '100%', marginTop: '0px' }}>
                   <iframe 
-                    src="https://www.loom.com/embed/9d7c5431b0a44d45aed616f952cb4738?sid=83715e76-a870-4fc5-be65-e5de66f49579" 
+                    src="https://www.loom.com/embed/9d7c5431b0a44d45aed616f952cb4738?sid=83715e76-a870-4fc5-be65-e5de66f49579?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" 
                     frameBorder="0" 
                     allow="autoplay; fullscreen" 
                     allowFullScreen 
-                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: 15  }}
                   ></iframe>
                 </div>
               </div>
@@ -126,6 +126,7 @@ export default function Home() {
           
           <div className="flex justify-center mb-8">
             <div className="overflow-x-auto w-full max-w-4xl">
+            <div className="overflow-hidden rounded-lg">
               <table className="min-w-full border-collapse mx-auto">
                 <thead className="bg-gray-100">
                   <tr>
@@ -137,7 +138,7 @@ export default function Home() {
                 <tbody>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3">Lead Qualification</td>
-                    <td className="border border-gray-200 px-4 py-3">
+                    <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />AI-powered, high-intent leads</div>
                     </td>
@@ -145,7 +146,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3">Conversion Rate</td>
-                    <td className="border border-gray-200 px-4 py-3">
+                    <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />3x higher than traditional methods</div>
                     </td>
@@ -153,7 +154,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3">Audience Segmentation</td>
-                    <td className="border border-gray-200 px-4 py-3">
+                    <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Hyper-targeted, data-driven</div>
                     </td>
@@ -161,7 +162,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3">Optimization</td>
-                    <td className="border border-gray-200 px-4 py-3">
+                    <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Continuous, machine learning</div>
                     </td>
@@ -169,7 +170,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3">Time to Results</td>
-                    <td className="border border-gray-200 px-4 py-3">
+                    <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Initial leads in 2-4 weeks</div>
                     </td>
@@ -177,7 +178,7 @@ export default function Home() {
                   </tr>
                   <tr>
                     <td className="border border-gray-200 px-4 py-3">ROI</td>
-                    <td className="border border-gray-200 px-4 py-3">
+                    <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />25% increase in 3 months</div>
                     </td>
@@ -185,6 +186,7 @@ export default function Home() {
                   </tr>
                 </tbody>
               </table>
+            </div>
             </div>
           </div>
         </div>
