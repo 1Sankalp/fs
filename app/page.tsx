@@ -125,9 +125,9 @@ export default function Home() {
           </div>
           
           <div className="flex justify-center mb-8">
-            <div className="w-full overflow-x-auto">
-            <div className="max-w-4xl w-full mx-auto">
-              <table className="w-full border-collapse">
+          <div className="w-full max-w-4xl overflow-hidden">
+            <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
                 <thead className="bg-gray-100">
                   <tr>
                     <th className="border border-gray-200 px-4 py-2 text-left">Feature</th>
