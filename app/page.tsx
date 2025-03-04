@@ -125,70 +125,39 @@ export default function Home() {
           </div>
           
           <div className="flex justify-center mb-8">
-          <div className="w-full max-w-4xl overflow-hidden">
-            <div className="overflow-x-auto">
-            <table className="w-full border-collapse">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="border border-gray-200 px-4 py-2 text-left">Feature</th>
-                    <th className="border border-gray-200 px-4 py-2 text-left">FunnelStrike</th>
-                    <th className="border border-gray-200 px-4 py-2 text-left">Other Agencies</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="border border-gray-200 px-4 py-3">Lead Qualification</td>
-                    <td className="border border-gray-200 px-4 py-3 flex items-center">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />AI-powered, high-intent leads</div>
-                    </td>
-                    <td className="border border-gray-200 px-4 py-3">Manual, often unqualified leads</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-200 px-4 py-3">Conversion Rate</td>
-                    <td className="border border-gray-200 px-4 py-3 flex items-center">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />3x higher than traditional methods</div>
-                    </td>
-                    <td className="border border-gray-200 px-4 py-3">Standard conversion rates</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-200 px-4 py-3">Audience Segmentation</td>
-                    <td className="border border-gray-200 px-4 py-3 flex items-center">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Hyper-targeted, data-driven</div>
-                    </td>
-                    <td className="border border-gray-200 px-4 py-3">Broad, less targeted</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-200 px-4 py-3">Optimization</td>
-                    <td className="border border-gray-200 px-4 py-3 flex items-center">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Continuous, machine learning</div>
-                    </td>
-                    <td className="border border-gray-200 px-4 py-3">Periodic, often reactive</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-200 px-4 py-3">Time to Results</td>
-                    <td className="border border-gray-200 px-4 py-3 flex items-center">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Initial leads in 2-4 weeks</div>
-                    </td>
-                    <td className="border border-gray-200 px-4 py-3">Varies, often longer</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-200 px-4 py-3">ROI</td>
-                    <td className="border border-gray-200 px-4 py-3 flex items-center">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />25% increase in 3 months</div>
-                    </td>
-                    <td className="border border-gray-200 px-4 py-3">Unpredictable, often lower</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            </div>
-          </div>
+  <div className="w-full max-w-4xl px-2">
+    <div className="overflow-hidden rounded-[15px] shadow-lg">
+      <table className="w-full border-collapse text-sm sm:text-base">
+        <thead className="bg-gray-100">
+          <tr>
+            <th className="border border-gray-200 px-2 py-2 text-left w-1/3">Feature</th>
+            <th className="border border-gray-200 px-2 py-2 text-left w-1/3">FunnelStrike</th>
+            <th className="border border-gray-200 px-2 py-2 text-left w-1/3">Other Agencies</th>
+          </tr>
+        </thead>
+        <tbody>
+          {[
+            ["Lead Qualification", "AI-powered, high-intent leads", "Manual, often unqualified leads"],
+            ["Conversion Rate", "3x higher than traditional methods", "Standard conversion rates"],
+            ["Audience Segmentation", "Hyper-targeted, data-driven", "Broad, less targeted"],
+            ["Optimization", "Continuous, machine learning", "Periodic, often reactive"],
+            ["Time to Results", "Initial leads in 2-4 weeks", "Varies, often longer"],
+            ["ROI", "25% increase in 3 months", "Unpredictable, often lower"],
+          ].map(([feature, funnelStrike, other], index) => (
+            <tr key={index}>
+              <td className="border border-gray-200 px-2 py-3">{feature}</td>
+              <td className="border border-gray-200 px-2 py-3 flex items-center gap-2">
+                <CheckCircle className="w-5 h-5 text-blue-600" />
+                {funnelStrike}
+              </td>
+              <td className="border border-gray-200 px-2 py-2">{other}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
         </div>
       </section>
 
