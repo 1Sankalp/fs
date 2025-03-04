@@ -125,9 +125,9 @@ export default function Home() {
           </div>
           
           <div className="flex justify-center mb-8">
-            <div className="overflow-x-auto w-full max-w-4xl">
-            <div className="overflow-hidden rounded-lg">
-              <table className="min-w-full border-collapse mx-auto">
+            <div className="w-full overflow-x-auto">
+            <div className="max-w-4xl w-full mx-auto">
+              <table className="w-full border-collapse">
                 <thead className="bg-gray-100">
                   <tr>
                     <th className="border border-gray-200 px-4 py-2 text-left">Feature</th>
@@ -140,7 +140,7 @@ export default function Home() {
                     <td className="border border-gray-200 px-4 py-3">Lead Qualification</td>
                     <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />AI-powered, high-intent leads</div>
+                        <CheckCircle className="h-6 w-6 sm:h-10 text-blue-600 mr-3" />AI-powered, high-intent leads</div>
                     </td>
                     <td className="border border-gray-200 px-4 py-3">Manual, often unqualified leads</td>
                   </tr>
@@ -148,7 +148,7 @@ export default function Home() {
                     <td className="border border-gray-200 px-4 py-3">Conversion Rate</td>
                     <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />3x higher than traditional methods</div>
+                        <CheckCircle className="h-6 w-6 sm:h-10 text-blue-600 mr-3" />3x higher than traditional methods</div>
                     </td>
                     <td className="border border-gray-200 px-4 py-3">Standard conversion rates</td>
                   </tr>
@@ -156,7 +156,7 @@ export default function Home() {
                     <td className="border border-gray-200 px-4 py-3">Audience Segmentation</td>
                     <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Hyper-targeted, data-driven</div>
+                        <CheckCircle className="h-6 w-6 sm:h-10 text-blue-600 mr-3" />Hyper-targeted, data-driven</div>
                     </td>
                     <td className="border border-gray-200 px-4 py-3">Broad, less targeted</td>
                   </tr>
@@ -164,7 +164,7 @@ export default function Home() {
                     <td className="border border-gray-200 px-4 py-3">Optimization</td>
                     <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Continuous, machine learning</div>
+                        <CheckCircle className="h-6 w-6 sm:h-10 text-blue-600 mr-3" />Continuous, machine learning</div>
                     </td>
                     <td className="border border-gray-200 px-4 py-3">Periodic, often reactive</td>
                   </tr>
@@ -172,7 +172,7 @@ export default function Home() {
                     <td className="border border-gray-200 px-4 py-3">Time to Results</td>
                     <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />Initial leads in 2-4 weeks</div>
+                        <CheckCircle className="h-6 w-6 sm:h-10 text-blue-600 mr-3" />Initial leads in 2-4 weeks</div>
                     </td>
                     <td className="border border-gray-200 px-4 py-3">Varies, often longer</td>
                   </tr>
@@ -180,7 +180,7 @@ export default function Home() {
                     <td className="border border-gray-200 px-4 py-3">ROI</td>
                     <td className="border border-gray-200 px-4 py-3 flex items-center">
                       <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-blue-600 mr-3" />25% increase in 3 months</div>
+                        <CheckCircle className="h-6 w-6 sm:h-10 text-blue-600 mr-3" />25% increase in 3 months</div>
                     </td>
                     <td className="border border-gray-200 px-4 py-3">Unpredictable, often lower</td>
                   </tr>
