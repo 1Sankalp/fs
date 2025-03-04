@@ -200,7 +200,7 @@ export default function Home() {
       <section id="faq" className="w-full bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">FAQs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Get answers to common questions about our lead generation services.
             </p>
@@ -276,7 +276,7 @@ export default function Home() {
               </a>
               <p className="text-gray-600 mt-2">AI-Powered Lead Generation</p>
             </div>
-            <div className="flex flex-col md:flex-row gap-8">
+            <div className="flex items-center justify-center space-x-8">
               <Link href="/" className="text-gray-600 hover:text-blue-600">Home</Link>
               <Link href="#faq" className="text-gray-600 hover:text-blue-600">FAQ</Link>
               <Link href="#process" className="text-gray-600 hover:text-blue-600">Process</Link>
