@@ -33,11 +33,11 @@ export default function RootLayout({
                 <Image 
                   src="/favicon2.png" 
                   alt="FunnelStrike Logo" 
-                  className="h-12 w-12 mr-2" 
+                  className="h-8 w-8 mr-2" 
                   width={50} 
                   height={24} 
                 />
-                <span className="text-3xl font-bold text-gray-900">FunnelStrike</span>
+                <span className="text-2xl font-bold text-gray-900">FunnelStrike</span>
               </div>
               </a>
               <nav className="hidden md:flex space-x-8">
