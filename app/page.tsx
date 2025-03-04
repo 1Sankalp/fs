@@ -121,7 +121,7 @@ export default function Home() {
       <section className="w-full bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">FunnelStrike vs. Traditional Agencies</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">FunnelStrike vs Other Agencies</h2>
           </div>
           
           <div className="flex justify-center mb-8">
@@ -131,7 +131,7 @@ export default function Home() {
                   <tr>
                     <th className="border border-gray-200 px-4 py-2 text-left">Feature</th>
                     <th className="border border-gray-200 px-4 py-2 text-left">FunnelStrike</th>
-                    <th className="border border-gray-200 px-4 py-2 text-left">Traditional Agencies</th>
+                    <th className="border border-gray-200 px-4 py-2 text-left">Other Agencies</th>
                   </tr>
                 </thead>
                 <tbody>
