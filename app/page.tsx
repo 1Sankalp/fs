@@ -49,20 +49,20 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className={`text-left transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-                Generate High-Quality Leads With <span className="text-blue-600">AI-Powered</span> Funnels
+                Generate High-Quality Leads With <span className="text-blue-500">AI-Powered</span> Funnels
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-10">
                 We help businesses scale their customer acquisition through automated lead generation systems that deliver consistent ROI.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://calendly.com/1sankalp" target="_blank" rel="noopener noreferrer">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-md">
+                  <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-6 text-lg rounded-md">
                     Book a Strategy Call
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </a>
                 <a href="#process">
-                  <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg rounded-md">
+                  <Button variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-50 px-8 py-6 text-lg rounded-md">
                     See Our Process
                   </Button>
                 </a>
@@ -94,21 +94,21 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
-                <Zap className="h-10 w-10 text-blue-600 mr-3" />
+                <Zap className="h-10 w-10 text-blue-500 mr-3" />
                 <h3 className="text-xl font-semibold">Faster Conversions</h3>
               </div>
               <p className="text-gray-600">Our AI-optimized funnels convert visitors to leads 3x faster than traditional methods.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
-                <BarChart3 className="h-10 w-10 text-blue-600 mr-3" />
+                <BarChart3 className="h-10 w-10 text-blue-500 mr-3" />
                 <h3 className="text-xl font-semibold">Higher Quality</h3>
               </div>
               <p className="text-gray-600">Machine learning algorithms qualify leads ensuring you only talk to prospects ready to buy.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
-                <Target className="h-10 w-10 text-blue-600 mr-3" />
+                <Target className="h-10 w-10 text-blue-500 mr-3" />
                 <h3 className="text-xl font-semibold">Measurable ROI</h3>
               </div>
               <p className="text-gray-600">Our clients see clear attribution and measurable return on their marketing investment.</p>
@@ -147,7 +147,7 @@ export default function Home() {
             <tr key={index}>
               <td className="border border-gray-200 px-2 py-3">{feature}</td>
               <td className="border border-gray-200 px-2 py-3 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue-600" />
+                <CheckCircle className="w-5 h-5 text-blue-500" />
                 {funnelStrike}
               </td>
               <td className="border border-gray-200 px-2 py-2">{other}</td>
@@ -173,24 +173,24 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
-              <div className="absolute -top-4 -left-4 bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">1</div>
+              <div className="absolute -top-4 -left-4 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">1</div>
               <h3 className="text-xl font-semibold mb-4 mt-2">Strategy Development</h3>
               <p className="text-gray-600 mb-4">We analyze your market, competitors, and ideal customer profile to create a tailored lead generation strategy.</p>
-              <div className="text-blue-600 font-medium">Discovery & Planning Phase</div>
+              <div className="text-blue-500 font-medium">Discovery & Planning Phase</div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
-              <div className="absolute -top-4 -left-4 bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">2</div>
+              <div className="absolute -top-4 -left-4 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">2</div>
               <h3 className="text-xl font-semibold mb-4 mt-2">Funnel Implementation</h3>
               <p className="text-gray-600 mb-4">Our team builds high-converting funnels with AI-powered automation to capture and nurture leads.</p>
-              <div className="text-blue-600 font-medium">Build & Launch Phase</div>
+              <div className="text-blue-500 font-medium">Build & Launch Phase</div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
-              <div className="absolute -top-4 -left-4 bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">3</div>
+              <div className="absolute -top-4 -left-4 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">3</div>
               <h3 className="text-xl font-semibold mb-4 mt-2">Optimization & Scaling</h3>
               <p className="text-gray-600 mb-4">We continuously test, refine, and scale your campaigns to maximize ROI and lead quality.</p>
-              <div className="text-blue-600 font-medium">Growth & Refinement Phase</div>
+              <div className="text-blue-500 font-medium">Growth & Refinement Phase</div>
             </div>
           </div>
         </div>
@@ -218,9 +218,9 @@ export default function Home() {
                 >
                   <span className="text-lg font-medium text-gray-900">{faq.question}</span>
                   {openFaq === index ? (
-                    <ChevronUp className="h-5 w-5 text-blue-600" />
+                    <ChevronUp className="h-5 w-5 text-blue-500" />
                   ) : (
-                    <ChevronDown className="h-5 w-5 text-blue-600" />
+                    <ChevronDown className="h-5 w-5 text-blue-500" />
                   )}
                 </button>
                 <div 
@@ -237,7 +237,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full bg-blue-600 py-16">
+      <section className="w-full bg-blue-500 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-8 md:mb-0 md:mr-8">
@@ -248,7 +248,7 @@ export default function Home() {
             </div>
             <div>
             <a href="https://calendly.com/1sankalp" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg rounded-md">
+                <Button className="bg-white text-blue-500 hover:bg-blue-50 px-8 py-6 text-lg rounded-md">
                   Book Your Free Strategy Call
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
@@ -277,10 +277,10 @@ export default function Home() {
               <p className="text-gray-600 mt-2">AI-Powered Lead Generation</p>
             </div>
             <div className="flex items-center justify-center space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-blue-600">Home</Link>
-              <Link href="#faq" className="text-gray-600 hover:text-blue-600">FAQ</Link>
-              <Link href="#process" className="text-gray-600 hover:text-blue-600">Process</Link>
-              <Link href="https://calendly.com/1sankalp" target="_blank" className="text-gray-600 hover:text-blue-600">Contact</Link>
+              <Link href="/" className="text-gray-600 hover:text-blue-500">Home</Link>
+              <Link href="#faq" className="text-gray-600 hover:text-blue-500">FAQ</Link>
+              <Link href="#process" className="text-gray-600 hover:text-blue-500">Process</Link>
+              <Link href="https://calendly.com/1sankalp" target="_blank" className="text-gray-600 hover:text-blue-500">Contact</Link>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-100 text-center text-gray-500">

@@ -41,14 +41,14 @@ export default function RootLayout({
               </div>
               </a>
               <nav className="hidden md:flex space-x-8">
-                <a href="/" className="text-gray-600 hover:text-blue-600 font-medium">Home</a>
-                <a href="/#process" className="text-gray-600 hover:text-blue-600 font-medium">Process</a>
-                <a href="/#faq" className="text-gray-600 hover:text-blue-600 font-medium">FAQ</a>
-                <a href="https://calendly.com/1sankalp" target="_blank"  className="text-gray-600 hover:text-blue-600 font-medium">Contact</a>
+                <a href="/" className="text-gray-600 hover:text-blue-500 font-medium">Home</a>
+                <a href="/#process" className="text-gray-600 hover:text-blue-500 font-medium">Process</a>
+                <a href="/#faq" className="text-gray-600 hover:text-blue-500 font-medium">FAQ</a>
+                <a href="https://calendly.com/1sankalp" target="_blank"  className="text-gray-600 hover:text-blue-500 font-medium">Contact</a>
               </nav>
               <div>
               <a href="https://calendly.com/1sankalp" target="_blank" rel="noopener noreferrer">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-md font-medium">
+                <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-md font-medium">
                     Book a Call
                 </button>
                 </a>
