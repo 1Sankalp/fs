@@ -20,16 +20,16 @@ export default function Home() {
 
   const faqs = [
     {
-      question: "How does FunnelStrike generate leads?",
-      answer: "We use a combination of AI-powered targeting, conversion-optimized landing pages, and automated follow-up systems to attract and qualify leads for your business. Our approach focuses on quality over quantity, ensuring you receive leads that are genuinely interested in your services."
+      question: "Can Funnel Strike target specific locations?",
+      answer: " Absolutely! We customize lead generation based on your desired industry, location, and audience demographics to ensure precision targeting."
     },
     {
       question: "How long until I see results?",
       answer: "Most clients begin seeing initial leads within the first 2-4 weeks after campaign launch. However, the quality and conversion rate of leads typically improves over time as our AI systems learn and optimize based on performance data."
     },
     {
-      question: "Do you work with any industry?",
-      answer: "While our systems can be adapted to various industries, we specialize in B2B services, SaaS, professional services, and high-ticket B2C offerings where the lifetime value of a customer justifies the investment in quality lead generation."
+      question: "Does Funnel Strike handle everything for me?",
+      answer: "Yes! From research and campaign setup to lead qualification and tracking, we handle the entire process. You just focus on closing deals while we bring in the leads."
     },
     {
       question: "What makes FunnelStrike different from other agencies?",
@@ -49,13 +49,13 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className={`text-left transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-                Generate High-Quality Leads With <span className="text-blue-500">AI-Powered</span> Funnels
+                Your Next <span className="text-blue-500">Big Client?</span> Already in the Pipeline!
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-10">
                 We help businesses scale their customer acquisition through automated lead generation systems that deliver consistent ROI.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://calendly.com/1sankalp" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-6 text-lg rounded-md">
                     Book a Strategy Call
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -91,27 +91,28 @@ export default function Home() {
       {/* Stats Section */}
       <section className="w-full bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl md:text-4xl text-center mb-12 font-bold text-gray-900">How We Drive Growth</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
                 <Zap className="h-10 w-10 text-blue-500 mr-3" />
                 <h3 className="text-xl font-semibold">Faster Conversions</h3>
               </div>
-              <p className="text-gray-600">Our AI-optimized funnels convert visitors to leads 3x faster than traditional methods.</p>
+              <p className="text-gray-600"> A high-performing system that grows with you, bringing in more leads with less effort.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
                 <BarChart3 className="h-10 w-10 text-blue-500 mr-3" />
                 <h3 className="text-xl font-semibold">Higher Quality</h3>
               </div>
-              <p className="text-gray-600">Machine learning algorithms qualify leads ensuring you only talk to prospects ready to buy.</p>
+              <p className="text-gray-600">An optimized approach that maximizes efficiency, ensuring you only talk to prospects ready to buy.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
                 <Target className="h-10 w-10 text-blue-500 mr-3" />
-                <h3 className="text-xl font-semibold">Measurable ROI</h3>
+                <h3 className="text-xl font-semibold">Targeted Outreach</h3>
               </div>
-              <p className="text-gray-600">Our clients see clear attribution and measurable return on their marketing investment.</p>
+              <p className="text-gray-600">Know exactly which campaigns drive results and scale them with confidence, maximizing your ROI.</p>
             </div>
           </div>
         </div>
@@ -138,10 +139,10 @@ export default function Home() {
         <tbody>
           {[
             ["Lead Qualification", "AI-powered, high-intent leads", "Manual, often unqualified leads"],
-            ["Conversion Rate", "3x higher than traditional methods", "Standard conversion rates"],
+            ["Conversion Rate", "3x higher than traditional methods", "Standard, often inconsistent"],
             ["Audience Segmentation", "Hyper-targeted, data-driven", "Broad, less targeted"],
-            ["Optimization", "Continuous, machine learning", "Periodic, often reactive"],
-            ["Time to Results", "Initial leads in 2-4 weeks", "Varies, often longer"],
+            ["Optimization", "Continuous AI-driven optimization", "Periodic, often reactive"],
+            ["Time to Results", "Initial leads in 5-6 weeks", "Varies, often longer"],
             ["ROI", "25% increase in 3 months", "Unpredictable, often lower"],
           ].map(([feature, funnelStrike, other], index) => (
             <tr key={index}>
@@ -173,21 +174,21 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
-              <div className="absolute -top-4 -left-4 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">1</div>
+              <div className="absolute -top-3 -left-3 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">1</div>
               <h3 className="text-xl font-semibold mb-4 mt-2">Strategy Development</h3>
               <p className="text-gray-600 mb-4">We analyze your market, competitors, and ideal customer profile to create a tailored lead generation strategy.</p>
               <div className="text-blue-500 font-medium">Discovery & Planning Phase</div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
-              <div className="absolute -top-4 -left-4 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">2</div>
-              <h3 className="text-xl font-semibold mb-4 mt-2">Funnel Implementation</h3>
+              <div className="absolute -top-3 -left-3 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">2</div>
+              <h3 className="text-xl font-semibold mb-4 mt-2">Funnel Setup</h3>
               <p className="text-gray-600 mb-4">Our team builds high-converting funnels with AI-powered automation to capture and nurture leads.</p>
               <div className="text-blue-500 font-medium">Build & Launch Phase</div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
-              <div className="absolute -top-4 -left-4 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">3</div>
+              <div className="absolute -top-3 -left-3 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">3</div>
               <h3 className="text-xl font-semibold mb-4 mt-2">Optimization & Scaling</h3>
               <p className="text-gray-600 mb-4">We continuously test, refine, and scale your campaigns to maximize ROI and lead quality.</p>
               <div className="text-blue-500 font-medium">Growth & Refinement Phase</div>
@@ -247,7 +248,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-            <a href="https://calendly.com/1sankalp" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-blue-500 hover:bg-blue-50 px-8 py-6 text-lg rounded-md">
                   Book Your Free Strategy Call
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -280,7 +281,7 @@ export default function Home() {
               <Link href="/" className="text-gray-600 hover:text-blue-500">Home</Link>
               <Link href="#faq" className="text-gray-600 hover:text-blue-500">FAQ</Link>
               <Link href="#process" className="text-gray-600 hover:text-blue-500">Process</Link>
-              <Link href="https://calendly.com/1sankalp" target="_blank" className="text-gray-600 hover:text-blue-500">Contact</Link>
+              <Link href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank" className="text-gray-600 hover:text-blue-500">Contact</Link>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-100 text-center text-gray-500">

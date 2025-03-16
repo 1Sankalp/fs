@@ -8,7 +8,7 @@ import Head from 'next/head'; // Ensure you import Head
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'FunnelStrike | AI-Powered Lead Generation Agency',
+  title: 'FunnelStrike | AI-Powered Lead Generation',
   description: 'Generate high-quality leads with AI-powered funnels that deliver consistent ROI for your business.',
   icons: {
     icon: '/favicon.ico', // Set your favicon
@@ -44,10 +44,10 @@ export default function RootLayout({
                 <a href="/" className="text-gray-600 hover:text-blue-500 font-medium">Home</a>
                 <a href="/#process" className="text-gray-600 hover:text-blue-500 font-medium">Process</a>
                 <a href="/#faq" className="text-gray-600 hover:text-blue-500 font-medium">FAQ</a>
-                <a href="https://calendly.com/1sankalp" target="_blank"  className="text-gray-600 hover:text-blue-500 font-medium">Contact</a>
+                <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank"  className="text-gray-600 hover:text-blue-500 font-medium">Contact</a>
               </nav>
               <div>
-              <a href="https://calendly.com/1sankalp" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank" rel="noopener noreferrer">
                 <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-md font-medium">
                     Book a Call
                 </button>
