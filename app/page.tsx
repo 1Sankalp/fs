@@ -20,24 +20,24 @@ export default function Home() {
 
   const faqs = [
     {
-      question: "Can Funnel Strike target specific locations?",
-      answer: " Absolutely! We customize lead generation based on your desired industry, location, and audience demographics to ensure precision targeting."
-    },
-    {
-      question: "How long until I see results?",
-      answer: "Most clients begin seeing initial leads within the first 2-4 weeks after campaign launch. However, the quality and conversion rate of leads typically improves over time as our AI systems learn and optimize based on performance data."
+      question: "How do I know if Funnel Strike is a good fit for my business?",
+      answer: "We grow when you grow. Our lead generation isn’t just about numbers—it’s about delivering real, conversion-ready prospects that drive success."
     },
     {
       question: "Does Funnel Strike handle everything for me?",
       answer: "Yes! From research and campaign setup to lead qualification and tracking, we handle the entire process. You just focus on closing deals while we bring in the leads."
     },
     {
-      question: "What makes FunnelStrike different from other agencies?",
-      answer: "Unlike traditional agencies that rely on outdated tactics and vanity metrics, we focus on delivering qualified leads that convert into revenue. Our AI-powered approach continuously optimizes your campaigns, and we provide complete transparency into performance metrics that matter to your bottom line."
+      question: "Can Funnel Strike target specific locations?",
+      answer: "Absolutely! We customize lead generation based on your desired industry, location, and audience demographics to ensure precision targeting."
     },
     {
       question: "How much does it cost?",
-      answer: "We offer customized packages based on your specific business needs, target audience, and growth goals. Rather than charging standard packages that may not fit your requirements, we develop tailored strategies with pricing that reflects the scope and scale of your campaign. Book a strategy call to receive a personalized quote."
+      answer: "We like to keep things simple and effective! With customizable pay-per-call and retainer options, our pricing ensures you only pay for what truly benefits your business."
+    },
+    {
+      question: "What is the quickest way to get started today?",
+      answer: "Simple—book a call with us! We’ll discuss your goals, tailor a plan, and launch your campaign right away."
     }
   ];
 
@@ -244,7 +244,7 @@ export default function Home() {
             <div className="mb-8 md:mb-0 md:mr-8">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Transform Your Lead Generation?</h2>
               <p className="text-xl text-blue-100">
-                Book a strategy call today and discover how our AI-powered approach can drive qualified leads to your business.
+                Book a strategy call today and discover how our automated approach can drive qualified leads to your business.
               </p>
             </div>
             <div>
