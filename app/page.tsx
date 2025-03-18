@@ -275,7 +275,7 @@ export default function Home() {
                 <span className="text-2xl font-bold text-gray-900">FunnelStrike</span>
               </div>
               </a>
-              <p className="text-gray-600 mt-2">AI-Powered Lead Generation</p>
+              <p className="text-gray-600 mt-2">A No BS Lead Gen Agency</p>
             </div>
             <div className="flex items-center justify-center space-x-8">
               <Link href="/" className="text-gray-600 hover:text-blue-500">Home</Link>
