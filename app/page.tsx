@@ -70,9 +70,9 @@ export default function Home() {
             </div>
             <div className="flex justify-center items-center">
               <div className={`flex flex-col items-center transition-all ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-                <a href="https://www.loom.com/share/9d7c5431b0a44d45aed616f952cb4738">
+                {/* <a href="https://www.loom.com/share/9d7c5431b0a44d45aed616f952cb4738">
                   <p className="text-white">codexplainer.vercel.app - 21 February 2025 - Watch Video</p>
-                </a>
+                </a> */}
                 <div style={{ position: 'relative', height: 290, width: '100%', marginTop: '0px' }}>
                   <iframe 
                     src="https://www.loom.com/embed/9d7c5431b0a44d45aed616f952cb4738?sid=83715e76-a870-4fc5-be65-e5de66f49579?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" 
