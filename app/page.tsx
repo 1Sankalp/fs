@@ -69,7 +69,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <div className={`flex flex-col items-center transition-all`}>
+              <div className={`flex flex-col items-center transition-all ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                 <a href="/">
                   <p className="text-white">codexplainer.vercel.app - 21 February 2025 - Watch Video</p>
                 </a>
