@@ -75,7 +75,7 @@ export default function Home() {
                 </a>
                 <div style={{ position: 'relative', height: 290, width: '100%', marginTop: '0px' }}>
                   <iframe 
-                    src="vid_fs.mp4" 
+                    src="fs_vid.mp4" 
                     frameBorder="0" 
                     allow="autoplay; fullscreen" 
                     allowFullScreen 
