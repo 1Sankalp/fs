@@ -20,24 +20,24 @@ export default function Home() {
 
   const faqs = [
     {
-      question: "How do I know if Funnel Strike is a good fit for my business?",
-      answer: "We grow when you grow. Our lead generation isn’t just about numbers—it’s about delivering real, conversion-ready prospects that drive success."
+      question: "Is personal branding really necessary for CXOs or executives?",
+      answer: "Absolutely. In today's digital-first world, decision-makers and stakeholders check LinkedIn before they pick up the phone. Your brand is your business card."
     },
     {
       question: "Does Funnel Strike handle everything for me?",
-      answer: "Yes! From research and campaign setup to lead qualification and tracking, we handle the entire process. You just focus on closing deals while we bring in the leads."
+      answer: "Yes. From content to strategy to engagement - we handle the heavy lifting so you can focus on what you do best."
     },
     {
-      question: "Can Funnel Strike target specific locations?",
-      answer: "Absolutely! We customize lead generation based on your desired industry, location, and audience demographics to ensure precision targeting."
+      question: "Can you target my industry or location?",
+      answer: "Definitely. We tailor your LinkedIn presence to resonate with specific geographies, industries, or networks."
     },
     {
       question: "How much does it cost?",
-      answer: "We like to keep things simple and effective! With customizable pay-per-call and retainer options, our pricing ensures you only pay for what truly benefits your business."
+      answer: "We offer tiered plans based on the level of support and content needed. Book a strategy call to find the best fit for you."
     },
     {
       question: "What is the quickest way to get started today?",
-      answer: "Simple—book a call with us! We’ll discuss your goals, tailor a plan, and launch your campaign right away."
+      answer: "You can start as soon as this week. Click below to book your first strategy session."
     }
   ];
 
@@ -49,10 +49,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className={`text-left transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-                Your Next <span className="text-blue-500">Big Client?</span> Already in the Pipeline!
+                Your Brand. Your Visibility. Sharpened on <span className="text-blue-500">LinkedIn.</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-10">
-                We help businesses scale their customer acquisition through automated lead generation systems that deliver consistent ROI.
+                We help CXOs and high-performing professionals build powerful personal brands on LinkedIn.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank" rel="noopener noreferrer">
@@ -96,23 +96,23 @@ export default function Home() {
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
                 <Zap className="h-10 w-10 text-blue-500 mr-3" />
-                <h3 className="text-xl font-semibold">Faster Conversions</h3>
+                <h3 className="text-xl font-semibold">Executive Authority</h3>
               </div>
-              <p className="text-gray-600"> A high-performing system that grows with you, bringing in more leads with less effort.</p>
+              <p className="text-gray-600">Be seen as the go-to expert in your domain with strategic content and positioning.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
                 <BarChart3 className="h-10 w-10 text-blue-500 mr-3" />
-                <h3 className="text-xl font-semibold">Higher Quality</h3>
+                <h3 className="text-xl font-semibold">Stronger Opportunities</h3>
               </div>
-              <p className="text-gray-600">An optimized approach that maximizes efficiency, ensuring you only talk to prospects ready to buy.</p>
+              <p className="text-gray-600">Attract relevant clients, partnerships, and speaking engagements organically.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 transform transition-all hover:scale-105 duration-300">
               <div className="flex items-center mb-4">
                 <Target className="h-10 w-10 text-blue-500 mr-3" />
-                <h3 className="text-xl font-semibold">Targeted Outreach</h3>
+                <h3 className="text-xl font-semibold">Smart Visibility</h3>
               </div>
-              <p className="text-gray-600">Know exactly which campaigns drive results and scale them with confidence, maximizing your ROI.</p>
+              <p className="text-gray-600">Get noticed by the right people without sounding salesy or off-brand.</p>
             </div>
           </div>
         </div>
@@ -138,17 +138,17 @@ export default function Home() {
         </thead>
         <tbody>
           {[
-            ["Lead Qualification", "AI-powered, high-intent leads", "Manual, often unqualified leads"],
-            ["Conversion Rate", "3x higher than traditional methods", "Standard, often inconsistent"],
-            ["Audience Segmentation", "Hyper-targeted, data-driven", "Broad, less targeted"],
-            ["Optimization", "Continuous AI-driven optimization", "Periodic, often reactive"],
-            ["Time to Results", "Initial leads in 5-6 weeks", "Varies, often longer"],
-            ["ROI", "25% increase in 3 months", "Unpredictable, often lower"],
+            ["Strategy", "Executive-focused personal brand strategy", "Generic templates or one-size-fits-all"],
+            ["Platform Focus", "100% LinkedIn growth + visibility", "Mixed platforms, diluted efforts"],
+            ["Content Creation", "Executive-toned, strategic, and tailored", "Basic graphics and quotes"],
+            ["Personalization", "Deep research on you, your voice, and your network", "Minimal brand voice matching"],
+            ["Results Timeline", "Growth in visibility & connections within 4-5 weeks", "Unpredictable or slow"],
+            ["ROI", "Increased credibility, authority, and inbound opportunities", "Often unclear or unmeasurable"],
           ].map(([feature, funnelStrike, other], index) => (
             <tr key={index}>
               <td className="border border-gray-200 px-2 py-3">{feature}</td>
               <td className="border border-gray-200 px-2 py-3 flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-blue-500" />
+                <CheckCircle className="w-10 h-5 text-blue-500" />
                 {funnelStrike}
               </td>
               <td className="border border-gray-200 px-2 py-2">{other}</td>
@@ -168,29 +168,29 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Proven Process</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We&apos;ve refined our approach to consistently deliver qualified leads that convert into customers.
+              Our 3-Step Executive Branding Framework
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
               <div className="absolute -top-3 -left-3 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">1</div>
-              <h3 className="text-xl font-semibold mb-4 mt-2">Strategy Development</h3>
-              <p className="text-gray-600 mb-4">We analyze your market, competitors, and ideal customer profile to create a tailored lead generation strategy.</p>
+              <h3 className="text-xl font-semibold mb-4 mt-2">Strategy Alignment</h3>
+              <p className="text-gray-600 mb-4">We analyze your career, industry, values, and goals to craft a personal brand strategy aligned with your executive presence.</p>
               <div className="text-blue-500 font-medium">Discovery & Planning Phase</div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
               <div className="absolute -top-3 -left-3 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">2</div>
-              <h3 className="text-xl font-semibold mb-4 mt-2">Funnel Setup</h3>
-              <p className="text-gray-600 mb-4">Our team builds high-converting funnels with AI-powered automation to capture and nurture leads.</p>
+              <h3 className="text-xl font-semibold mb-4 mt-2">Content Creation & Visibility</h3>
+              <p className="text-gray-600 mb-4">Our team produces content that reflects your expertise, values, and voice - then optimizes it to expand your reach among decision-makers.</p>
               <div className="text-blue-500 font-medium">Build & Launch Phase</div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 relative">
               <div className="absolute -top-3 -left-3 bg-blue-500 text-white w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg">3</div>
-              <h3 className="text-xl font-semibold mb-4 mt-2">Optimization & Scaling</h3>
-              <p className="text-gray-600 mb-4">We continuously test, refine, and scale your campaigns to maximize ROI and lead quality.</p>
+              <h3 className="text-xl font-semibold mb-4 mt-2">Positioning & Engagement</h3>
+              <p className="text-gray-600 mb-4">We help you strategically grow your network, engage with key stakeholders, and amplify your brand through targeted positioning.</p>
               <div className="text-blue-500 font-medium">Growth & Refinement Phase</div>
             </div>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">FAQs</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get answers to common questions about our lead generation services.
+              Get answers to common questions about our personal branding services.
             </p>
           </div>
           
@@ -242,9 +242,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-8 md:mb-0 md:mr-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Transform Your Lead Generation?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Build a Magnetic LinkedIn Presence?</h2>
               <p className="text-xl text-blue-100">
-                Book a strategy call today and discover how our automated approach can drive qualified leads to your business.
+                Book your strategy call today and discover how FunnelStrike can turn your LinkedIn into your most powerful personal branding tool.
               </p>
             </div>
             <div>
@@ -275,7 +275,7 @@ export default function Home() {
                 <span className="text-2xl font-bold text-gray-900">FunnelStrike</span>
               </div>
               </a>
-              <p className="text-gray-600 mt-2">A No BS Lead Gen Agency</p>
+              <p className="text-gray-600 mt-2">A No BS Personal Branding Agency</p>
             </div>
             <div className="flex items-center justify-center space-x-8">
               <Link href="/" className="text-gray-600 hover:text-blue-500">Home</Link>
