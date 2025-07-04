@@ -41,14 +41,14 @@ export default function RootLayout({
               </div>
               </a>
               <nav className="hidden md:flex space-x-8">
-                <a href="/" className="text-gray-600 hover:text-blue-500 font-medium">Home</a>
-                <a href="/#process" className="text-gray-600 hover:text-blue-500 font-medium">Process</a>
-                <a href="/#faq" className="text-gray-600 hover:text-blue-500 font-medium">FAQ</a>
-                <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank"  className="text-gray-600 hover:text-blue-500 font-medium">Contact</a>
+                <a href="/" className="text-gray-600 hover:text-[#2999ff] font-medium">Home</a>
+                <a href="/#process" className="text-gray-600 hover:text-[#2999ff] font-medium">Process</a>
+                <a href="/#faq" className="text-gray-600 hover:text-[#2999ff] font-medium">FAQ</a>
+                <a href="https://calendly.com/funnelstrike/30min" target="_blank"  className="text-gray-600 hover:text-[#2999ff] font-medium">Contact</a>
               </nav>
               <div>
-              <a href="https://calendly.com/sankalp-funnelstrike/30min" target="_blank" rel="noopener noreferrer">
-                <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-3 rounded-md font-medium">
+              <a href="https://calendly.com/funnelstrike/30min" target="_blank" rel="noopener noreferrer">
+                <button className="bg-[#2999ff] hover:bg-[#2999ff] text-white px-4 py-3 rounded-md font-medium">
                     Book a Call
                 </button>
                 </a>
