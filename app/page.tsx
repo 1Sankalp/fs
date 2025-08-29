@@ -55,7 +55,7 @@ export default function Home() {
                 We help CXOs and high-performing professionals build powerful personal brands on LinkedIn.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://calendly.com/funnelstrike/30min" target="_blank" rel="noopener noreferrer">
+              <a href="/" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-[#2999ff] hover:bg-[#2999ff] text-white px-8 py-6 text-lg rounded-md">
                     Book a Strategy Call
                     <ArrowRight className="ml-2 h-5 w-5" />
@@ -74,13 +74,13 @@ export default function Home() {
                   <p className="text-white">codexplainer.vercel.app - 21 February 2025 - Watch Video</p>
                 </a>
                 <div style={{ position: 'relative', height: 290, width: '100%', marginTop: '0px' }}>
-                  <iframe 
+                  {/* <iframe 
                     src="fs_vid.mp4" 
                     frameBorder="0" 
                     allow="autoplay; fullscreen" 
                     allowFullScreen 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', borderRadius: 15  }}
-                  ></iframe>
+                  ></iframe> */}
                 </div>
               </div>
             </div>
@@ -248,7 +248,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-            <a href="https://calendly.com/funnelstrike/30min" target="_blank" rel="noopener noreferrer">
+            <a href="/" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-white text-[#2999ff] hover:bg-blue-50 px-8 py-6 text-lg rounded-md">
                   Book Your Free Strategy Call
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -281,7 +281,7 @@ export default function Home() {
               <Link href="/" className="text-gray-600 hover:text-[#2999ff]">Home</Link>
               <Link href="#faq" className="text-gray-600 hover:text-[#2999ff]">FAQ</Link>
               <Link href="#process" className="text-gray-600 hover:text-[#2999ff]">Process</Link>
-              <Link href="https://calendly.com/funnelstrike/30min" target="_blank" className="text-gray-600 hover:text-[#2999ff]">Contact</Link>
+              <Link href="/" target="_blank" className="text-gray-600 hover:text-[#2999ff]">Contact</Link>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-100 text-center text-gray-500">

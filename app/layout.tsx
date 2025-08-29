@@ -44,10 +44,10 @@ export default function RootLayout({
                 <a href="/" className="text-gray-600 hover:text-[#2999ff] font-medium">Home</a>
                 <a href="/#process" className="text-gray-600 hover:text-[#2999ff] font-medium">Process</a>
                 <a href="/#faq" className="text-gray-600 hover:text-[#2999ff] font-medium">FAQ</a>
-                <a href="https://calendly.com/funnelstrike/30min" target="_blank"  className="text-gray-600 hover:text-[#2999ff] font-medium">Contact</a>
+                <a href="/" target="_blank"  className="text-gray-600 hover:text-[#2999ff] font-medium">Contact</a>
               </nav>
               <div>
-              <a href="https://calendly.com/funnelstrike/30min" target="_blank" rel="noopener noreferrer">
+              <a href="/" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#2999ff] hover:bg-[#2999ff] text-white px-4 py-3 rounded-md font-medium">
                     Book a Call
                 </button>
